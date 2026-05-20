@@ -1,0 +1,28 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" />
+      <stop offset="0.5" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="omniGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" />
+      <stop offset="0.5" stop-color="#C084FC" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="166.4" stroke="white" stroke-width="32" stroke-opacity="0.3" />
+  <path
+    d="M256 89.6C347.9 89.6 422.4 164.1 422.4 256C422.4 347.9 347.9 422.4 256 422.4"
+    stroke="url(#omniGrad)"
+    stroke-width="44.8"
+    stroke-linecap="round"
+  />
+  <path
+    d="M256 153.6L273.92 225.28L345.6 256L273.92 286.72L256 358.4L238.08 286.72L166.4 256L238.08 225.28L256 153.6Z"
+    fill="white"
+  />
+  <circle cx="345.6" cy="166.4" r="25.6" fill="#38BDF8" />
+  <circle cx="166.4" cy="345.6" r="25.6" fill="#A855F7" />
+</svg>
